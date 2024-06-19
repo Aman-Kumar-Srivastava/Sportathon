@@ -9,10 +9,10 @@ function Contact() {
     height: "200px",
   };
 
-  // Coordinates for HCL Noida
-  const hclNoidaLocation = {
-    lat: 28.5385,
-    lng: 77.3366,
+  // Coordinates for Event Location
+  const eventLocation = {
+    lat: 28.637778,
+    lng: 77.243056,
   };
 
   return (
@@ -21,7 +21,7 @@ function Contact() {
         <h1>Description</h1>
         <p>
           <i>
-            "Welcome to Sporthaton organised by HCLTech, your premier
+            "Welcome to Sporthaton, your premier
             destination for sports event management. With a passion for
             athletics and a commitment to excellence, we specialize in
             orchestrating unforgettable sports experiences for athletes,
@@ -31,18 +31,18 @@ function Contact() {
       </div>
       <div className="contact-two">
         <h1>Contact us at:</h1>
-        <p>Location: Noida Sec-126</p>
-        <p>Email: sporthaton@hcl.com</p>
+        <p>Location: Delhi</p>
+        <p>Email: sporthaton@email.com</p>
         <p>Phone: 123-456-7890</p>
       </div>
       <div className="contact-three">
         <LoadScript>
           <GoogleMap
             mapContainerStyle={mapContainerStyle}
-            center={hclNoidaLocation}
+            center={eventLocation}
             zoom={15}
           >
-            <Marker position={hclNoidaLocation} />
+            <Marker position={eventLocation} />
           </GoogleMap>
         </LoadScript>
       </div>

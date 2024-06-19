@@ -36,7 +36,7 @@ function Homepage() {
           Your browser does not support the video tag.
         </video>
         <h2 className="text-overload">
-          "Unleash Your Inner Athlete: Join HCL's Sporthaton and Experience the
+          "Unleash Your Inner Athlete: Join Sporthaton and Experience the
           Thrill of Sports!"
         </h2>
         {/* <button className='reg-button'>Register</button> */}
